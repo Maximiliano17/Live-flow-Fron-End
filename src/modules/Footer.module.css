@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    width:100%;
+    height:4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #009929;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.responsive{
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .derechos{
+        display:none;
+    }
+    .responsive{
+        display: flex;
+    }
+ }
